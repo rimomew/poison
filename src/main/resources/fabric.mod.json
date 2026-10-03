@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "client-marker",
+  "version": "${version}",
+  "name": "Client Marker",
+  "description": "A client-only toggle marker for living entities under the crosshair.",
+  "authors": ["Tudor"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.tudor.clientmarker.ClientMarkerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
